@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="nombre_app">¡Coca-Lover (NORMAL)!</string>
+    <string name="Presioname">INICIAR SESIÓN/ INGRESAR</string>
+    <string name="Acerca_de">Ingresar Trabajadores</string>
+    <string name="Volver_a_principal">Inicio</string>
+    <string name="Trabajadores">Trabajadores</string>
+    <string name="Info_app">
+        Esta aplicación tiene el objetivo de conectarte con constructores de forma transparente, ingresa tus datos!!
+    </string>
+    <string name="rut">Ingresa tu rut aquí</string>
+    <string name="Ingresar">Ingresar</string>
+
+</resources>

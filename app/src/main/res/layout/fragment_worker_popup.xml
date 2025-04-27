@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="@android:color/transparent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde_redondeado"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Imagen circular -->
+        <ImageView
+            android:id="@+id/imagenWorker"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_enc"
+            android:clipToOutline="true"
+            android:layout_marginBottom="16dp"
+            android:outlineProvider="bounds"
+            android:background="@drawable/borde_redondeado"/>
+
+        <!-- Nombre destacado -->
+        <TextView
+            android:id="@+id/nombreWorker"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Nombre Apellido"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Línea divisoria -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Detalles -->
+        <TextView
+            android:id="@+id/zonaWorker"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zona: Santiago Centro"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tipoTrabajoWorker"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de trabajo: Electricidad"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/precioHoraWorker"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio/hora: $15.000"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/numeroContactoWorker"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contacto: +56 9 1234 5678"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Botón WhatsApp -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/botonContactar"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/whatsapp_icon"
+            app:iconGravity="textStart"
+            android:text="Contactar vía WhatsApp"/>
+    </LinearLayout>
+</ScrollView>

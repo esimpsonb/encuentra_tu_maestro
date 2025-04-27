@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tipos_trabajo">
+        <item>Electricidad</item>
+        <item>Gasfitería</item>
+        <item>Albañilería</item>
+        <item>Obras menores</item>
+    </string-array>
+
+    <string-array name="zonas_trabajo">
+        <item>Santiago</item>
+        <item>Valparaíso</item>
+        <item>Viña del Mar</item>
+        <item>Quilpue</item>
+        <item>Rancagua</item>
+        <item>La Serena</item>
+    </string-array>
+
+</resources>
